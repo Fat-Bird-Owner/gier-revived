@@ -2,6 +2,8 @@
 launchCandidates:[gier]
 launchBlock: core-shard
 
+consumes:{}
+
 research: core-shard
 requirements:[
 copper/850
