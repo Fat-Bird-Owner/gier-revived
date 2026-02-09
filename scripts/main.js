@@ -9,3 +9,9 @@ Events.on(SectorLaunchEvent, e => {
 var attempt = e.info.attempts;
 Vars.ui.showInfoText("[lightgrey]Gier: The Asteroid Belt[]","Your current attempt count is " + attempt);
 });
+
+Events.on(WorldLoadEvent, event => {
+
+  Vars.ui.showInfoText("[lightgrey]Gier: The Asteroid Belt[]","Your current attempt count is 0");
+  
+})
