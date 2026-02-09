@@ -5,15 +5,17 @@ Planets.gier.accessible = true;
 
 });
 
-Events.on(WorldLoadEvent, e => { 
+Events.on(WorldLoadEvent, e => {
 
-TechTree.all.each(node => {
-    if(node.content != null &&
-       node.content.planet != null &&
-       node.content.planet == Planets.gier){
+    TechTree.all.each(node => {
 
-        node.clearUnlock();
-    }
-});
+        if(node.content != null &&
+           node.content.planet == Planets.gier &&
+           node.unlocked()){
+
+            node.clearUnlock();
+        }
+
+    });
 
 });
