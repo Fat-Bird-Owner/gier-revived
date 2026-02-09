@@ -10,8 +10,8 @@ Events.on(WorldLoadEvent, e => {
     if (Planets.gier.techTree == null) return;
     
     Planets.gier.techTree.each(node => {
-        if(node.unlocked()){
-            node.clearUnlock();
+        if(node.content.unlocked){
+            node.content.clearUnlock();
         }
     });
 
