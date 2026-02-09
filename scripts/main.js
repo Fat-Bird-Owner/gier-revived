@@ -13,10 +13,10 @@ Events.on(SectorLaunchEvent, event => {
     if(!event.sector.preset) return;
 
     // make sure planet exists
-    if(!preset.planet) return;
+    if(!event.sector.preset.planet) return;
 
     // check planet name
-    if(planet.name !== "gier") return;
+    if(event.sector.preset.planet.name !== "gier") return;
 
     Vars.ui.showInfoText("[lightgrey]Gier: The Asteroid Belt[]","[grey]...[]");
 });
