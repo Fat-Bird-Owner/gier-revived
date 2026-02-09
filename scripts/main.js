@@ -6,13 +6,24 @@ Planets.gier.accessible = true;
 });
 
 Events.on(SectorLaunchEvent, event => {
-    // Read is there a preset most likely a numbered sector is is null
-    if (event.sector.preset == null) return;
-    // if it is a preset find the planet's name
-    
-    if (event.sector.preset.planet.name != "gier") return;
-    Vars.ui.showInfoText("[lightgrey]Gier: The Asteroid Belt[]", "[grey]...[]");
+    // make sure sector exists
+    if(!event.sector) return;
 
+    // make sure we have a preset (null if not a numbered campaign sector)
+    let preset = event.sector.preset;
+    if(!preset) return;
+
+    // make sure planet exists
+    let planet = preset.planet;
+    if(!planet) return;
+
+    // check planet name
+    if(planet.name !== "gier") return;
+
+    Vars.ui.showInfoText(
+        "[lightgrey]Gier: The Asteroid Belt[]",
+        "[grey]...[]"
+    );
 });
 
 /*
