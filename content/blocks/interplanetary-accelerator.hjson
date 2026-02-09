@@ -2,7 +2,9 @@
 launchCandidates:[gier]
 launchBlock: core-shard
 
-consumes:{}
+consumes:{
+remove: all
+}
 
 research: core-shard
 requirements:[
