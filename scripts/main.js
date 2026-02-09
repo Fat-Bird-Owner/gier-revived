@@ -7,9 +7,9 @@ Planets.gier.accessible = true;
 
 Events.on(SectorLaunchEvent, e => {
 
-    var info = e.preset.name
-    if (info != "gr-gier") return;
-
+    var info = e.preset
+    if (info == null) return;
+    if (info.name != "gr-gier") return;
     Vars.ui.showInfoText("[lightgrey]Gier: The Asteroid Belt[]", "[grey]...[]");
 
 });
