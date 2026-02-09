@@ -53,10 +53,9 @@ Events.on(WorldLoadEvent, event => {
   Vars.ui.showInfoText("[lightgrey]Gier: The Asteroid Belt[]","Your current attempt count is 0");
   
 })
-*/
-Events.on(WorldLoadEvent, e => {
+*/Events.on(WorldLoadEvent, e => {
 
-    let sector = Vars.state.getSector();
+    let sector = Vars.state.rules.sector;
     if(!sector) return;
 
     let info = sector.info;
