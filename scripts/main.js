@@ -7,7 +7,7 @@ Planets.gier.accessible = true;
 
 Events.on(WorldLoadEvent, e => {
 
-    var parent = TechTree.all.find(u => u.content == StatusEffects.vow-gier);
+    var parent = TechTree.all.find(u => u.content == StatusEffects.ge-gier);
     
     parent.each(node => {
         if(node.content.unlocked){
@@ -15,4 +15,4 @@ Events.on(WorldLoadEvent, e => {
         }
     });
 
-});;
+});
