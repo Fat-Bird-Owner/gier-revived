@@ -2,7 +2,7 @@ type: AttributeCrafter
 size: 2
 name: Sand Strate
 
-research: hydro-drill
+research: gier
 researchCostMultiplier: 0.25
 attribute: sand
 databaseTag: "gier"
@@ -13,7 +13,7 @@ category: production
 outputItem: sand/2
 baseEfficiency: 0
 
-displayEfficiency: false
+displayEfficiency: true
 requirements:[copper/35,lead/25]
 minEfficiency: 0.1
 
