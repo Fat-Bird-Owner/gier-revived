@@ -59,8 +59,7 @@ Events.on(SectorLaunchEvent, e => {
 Events.on(WorldLoadEvent, event => {
 
 Planets.gier.ruleSetter = rules => {
-rules.waveTeam = Team.blue;
-rules.showSpawns = true;
+rules.waveTeam = Team.blue
 rules.onlyDepositCore = true;
 rules.cleanupDeadTeams = true;
 }
