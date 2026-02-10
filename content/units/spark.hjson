@@ -1,20 +1,23 @@
 type: flying
-flying: truue
+flying: true
+outlineColor: 2f2f3f
 name: Spark
 speed: 2.15
-accel: 0.0119444
+accel: 0.119444
 drag: 0.00597222
 omniMovement: false
 rotateSpeed: 3.5
 health: 300
+engineOffset: 6
+engineSize: 2
 
 abilities:[
 {
 type: MoveEffectAbility
 x: 3.125
 y: -1.5
-chance: 1
-interval: 0.1
+chance: 5
+interval: 0.05
 effect:{
 type: ParticleEffect
 length: 0
@@ -28,8 +31,8 @@ lifetime: 50
 type: MoveEffectAbility
 x: -3.125
 y: -1.5
-chance: 1
-interval: 0.1
+chance: 5
+interval: 0.05
 effect:{
 type: ParticleEffect
 length: 0
