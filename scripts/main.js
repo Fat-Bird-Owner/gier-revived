@@ -7,10 +7,12 @@ Planets.gier.visible = true;
 Planets.gier.accessible = true;
 Planets.gier.ruleSetter = rules => {
 rules.waveTeam = Team.blue;
+/*
 rules.placeRangeCheck = false;
 rules.showSpawns = true;
 rules.onlyDepositCore = true;
 rules.cleanupDeadTeams = true;
+*/
 }
 
 });
