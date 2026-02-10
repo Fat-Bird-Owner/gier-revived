@@ -20,7 +20,7 @@ drawers:[
 type: DrawBlurSpin
 suffix: "-rotator1"
 x: -3.75
-y: 3.75
+y: 3.5
 blurThresh: 0
 }
 {
