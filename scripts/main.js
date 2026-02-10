@@ -55,7 +55,7 @@ Events.on(SectorLaunchEvent, e => {
 
 });
 */
-
+/*
 Events.on(WorldLoadEvent, event => {
 
 Planets.gier.ruleSetter = rules => {
@@ -65,4 +65,5 @@ rules.onlyDepositCore = true;
 }
   
 })
+*/
 
