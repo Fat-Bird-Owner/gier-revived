@@ -9,7 +9,7 @@ drawRim: false
 drawSpinSprite: true
 drawMineItem: true
 
-databaseTag: "T1"
+databaseTag: "gier"
 
 category: production
 research: gier
