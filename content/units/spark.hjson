@@ -11,6 +11,7 @@ health: 300
 engineOffset: 6
 engineSize: 2
 circleTarget: true
+range: 300
 
 weapons:[
 {
