@@ -1,0 +1,12 @@
+type: Drill
+size: 2
+
+requirements:[copper/15,lead/10,grahpite/10]
+
+drawRim: false
+drawSpinSprite: false
+drawMineItem: false
+
+category: productions
+research: gier
+researchCostMultiplier: 0.25
