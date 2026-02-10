@@ -63,7 +63,7 @@ rules.waveTeam = Team.blue;
 rules.placeRangeCheck = false;
 rules.showSpawns = true;
 rules.onlyDepositCore = true;
-rules.cleanupDeadTeams = true;
+//rules.cleanupDeadTeams = true;
 }
   
 })
