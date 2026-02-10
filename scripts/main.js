@@ -55,10 +55,16 @@ Events.on(SectorLaunchEvent, e => {
 
 });
 */
-/*
+
 Events.on(WorldLoadEvent, event => {
 
-  Vars.ui.showInfoText("[lightgrey]Gier: The Asteroid Belt[]","Your current attempt count is 0");
+Planets.gier.ruleSetter = rules => {
+rules.waveTeam = Team.blue;
+rules.placeRangeCheck = false;
+rules.showSpawns = true;
+rules.onlyDepositCore = true;
+rules.cleanupDeadTeams = true;
+}
   
 })
-*/
+
