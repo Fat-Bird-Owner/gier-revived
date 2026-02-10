@@ -9,6 +9,8 @@ drawRim: false
 drawSpinSprite: true
 drawMineItem: true
 
+databaseTag: "T1"
+
 category: production
 research: gier
 researchCostMultiplier: 0.25
