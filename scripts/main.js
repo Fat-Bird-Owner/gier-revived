@@ -4,7 +4,7 @@ Planets.gier.visible = true;
 Planets.gier.accessible = true;
 
 });
-
+/*
 Events.on(SectorLaunchEvent, event => {
     // make sure sector exists
     if(!event.sector) return;
@@ -20,7 +20,7 @@ Events.on(SectorLaunchEvent, event => {
 
     Vars.ui.showInfoText("[lightgrey]Gier: The Asteroid Belt[]","[grey]...[]");
 });
-
+*/
 /*
 Events.on(WorldLoadEvent, event => {
 
@@ -28,12 +28,6 @@ Events.on(WorldLoadEvent, event => {
   
 })
 */
-Events.on(ContentInitEvent, e => { 
-
-Planets.gier.visible = true;
-Planets.gier.accessible = true;
-
-});
 
 /*
 Events.on(SectorLaunchEvent, e => {
