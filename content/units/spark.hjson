@@ -1,0 +1,42 @@
+type: flying
+flying: truue
+name: Spark
+speed: 2.15
+accel: 0.0119444
+drag: 0.00597222
+omniMovement: false
+rotateSpeed: 3.5
+health: 300
+
+abilities:[
+{
+type: MoveEffectAbility
+x: 3.125
+y: -1.5
+chance: 1
+interval: 0.1
+effect:{
+type: ParticleEffect
+length: 0
+sizeFrom: 1.5
+sizeTo: 0
+lifetime: 50
+}
+
+}
+{
+type: MoveEffectAbility
+x: -3.125
+y: -1.5
+chance: 1
+interval: 0.1
+effect:{
+type: ParticleEffect
+length: 0
+sizeFrom: 1.5
+sizeTo: 0
+lifetime: 50
+}
+
+}
+]
