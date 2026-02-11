@@ -1,3 +1,5 @@
+require("gr/blocks")
+
 Events.on(ContentInitEvent, e => { 
 
 Team.get(5).setPalette(Color.valueOf("8ecff5"));
