@@ -5,5 +5,5 @@ const wall = extend(Wall, "terrible-conveyor", {
   onDestroyed(){
   Vars.ui.hudfrag.showToast("Pathetic.");
   kill();
-  } 
+  }, 
 });
