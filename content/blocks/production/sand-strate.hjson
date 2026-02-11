@@ -9,13 +9,12 @@ attribute: sand
 databaseTag: "gier"
 shownPlanets: [gier]
 buildVisibility: shown
-envEnabled: 1
 
-category: production
-
+category: crafting
 outputItem: sand/2
 baseEfficiency: 0
 
+buildVisibility: shown
 displayEfficiency: false
 requirements:[copper/35,lead/25]
 minEfficiency: 0.1
