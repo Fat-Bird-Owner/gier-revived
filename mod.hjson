@@ -10,10 +10,9 @@ description: ""
 
 iosCompatible: true
 version: "v1"
-minGameVersion: "154.3"
+minGameVersion: "155"
 dependencies: []
 hidden: false
 
 contentOrder:[
-sand-strate
 ]
