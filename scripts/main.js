@@ -7,6 +7,7 @@ Team.get(5).emoji = "[#8ecff5][]";
     
 Planets.gier.visible = true;
 Planets.gier.accessible = true;
+Planets.gier.defaultAttributes.set(Attribute.heat, 0.8f);
 Planets.gier.ruleSetter = rules => {
 rules.waveTeam = Team.blue;
 /*
