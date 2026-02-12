@@ -1,0 +1,5 @@
+block.duct:{
+requirements:[copper/2]
+}
+
+block.stone.dropItem: sand
