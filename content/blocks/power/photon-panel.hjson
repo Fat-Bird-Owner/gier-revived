@@ -5,6 +5,7 @@ customShadow: true
 
 requirements:[copper/35,lead/25,graphite/15]
 research: gier
+researchCostMultipier: 0.35
 databaseTag: "gier"
 
 drawer:{
