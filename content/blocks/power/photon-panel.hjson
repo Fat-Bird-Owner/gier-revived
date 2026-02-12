@@ -3,10 +3,11 @@ name: Photon Panel
 size: 2
 customShadow: true
 
-requirements:[copper/35,lead/25,graphite/15]
+requirements:[copper/135,lead/125,graphite/115]
 research: gier
 researchCostMultiplier: 0.15
 databaseTag: "gier"
+powerProduction: 0.166667
 
 drawer:{
 type: DrawMulti
