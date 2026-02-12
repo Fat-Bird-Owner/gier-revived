@@ -10,14 +10,6 @@ reinforced-conduit-top-3,
 reinforced-conduit-top-4
 ]
 
-bottomRegions:[
-reinforced-conduit-bottom-0,
-reinforced-conduit-bottom-1,
-reinforced-conduit-bottom-2,
-reinforced-conduit-bottom-3,
-reinforced-conduit-bottom-4
-]
-
 }
 
 block.stone.itemDrop: sand
