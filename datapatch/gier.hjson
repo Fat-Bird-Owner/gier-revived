@@ -1,6 +1,22 @@
 block.duct:{
-requirements:[copper/2]
+requirements:[lead/1]
 shownPlanets: [gier, erekir]
+
+topRegions:[
+reinforced-conduit-top-0,
+reinforced-conduit-top-1,
+reinforced-conduit-top-2,
+reinforced-conduit-top-3,
+reinforced-conduit-top-4
+]
+
+bottomRegions:[
+reinforced-conduit-bottom-0,
+reinforced-conduit-bottom-1,
+reinforced-conduit-bottom-2,
+reinforced-conduit-bottom-3,
+reinforced-conduit-bottom-4
+]
 
 }
 
