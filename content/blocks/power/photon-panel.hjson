@@ -3,11 +3,17 @@ name: Photon Panel
 size: 2
 customShadow: true
 
+requirements:[copper/35,lead/25,graphite/15]
+research: gier
+databaseTag: "gier"
+
 drawer:{
 type: DrawMulti
 drawers:[
 {
 type: DrawGlowRegion
+suffix: "-glow"
+color: 6f6f6f
 }
 {
 type: DrawDefault
