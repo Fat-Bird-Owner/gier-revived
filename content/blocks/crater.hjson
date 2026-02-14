@@ -1,0 +1,6 @@
+type: Router
+name: Crate
+
+itemCapacity: 50
+requirements:[copper/15,graphite/10,lead/5]
+squareSprite: false
