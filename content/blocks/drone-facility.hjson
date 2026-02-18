@@ -5,7 +5,7 @@ health: 475
 
 customShadow: true
 itemCapacity: 120
-envRequired: 2
+envRequired: 0
 
 polyRadius: 5.5
 
@@ -22,4 +22,4 @@ graphite/85
 research: gier
 researchCostMultiplier: 0.65
 databaseTag: "gier"
-shownPlanets:[gier]
+#shownPlanets:[gier]
