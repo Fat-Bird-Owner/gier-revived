@@ -4,6 +4,8 @@ name: Drone Facility
 category: units
 health: 475
 
+customShadow: true
+
 requirements:[
 copper/65
 lead/45
