@@ -30,7 +30,7 @@ cone: 0
 strokeFrom: 1
 strokeTo: 3
 lenFrom: 0
-lenTo: 150
+lenTo: -150
 colorFrom: ffffff
 colorTo: ffffff00
 length: -0.1
@@ -38,10 +38,11 @@ length: -0.1
 
 shootType:{
 type: BulletType
-speed: 30
+speed: 5
 lifetime: 30
 pierce: true
 damage: 45
+despawnHit: true
 
 fragBullets: 5
 fragSpread: 30
