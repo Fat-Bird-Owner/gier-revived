@@ -1,0 +1,70 @@
+type: PowerTurret
+size: 4
+
+consumes:{
+power: 1
+}
+  
+requirements:[
+lead/445
+copper/365
+graphite/265
+]
+buildTime: 300
+
+shootType:{
+
+}
+rotates: false
+rotateSpeed: 0
+
+shootEffect:{
+type: ParticleEffect
+particles: 1
+line: true
+cone: 0
+strokeFrom: 1
+strokeTo: 3
+lenFrom: 150
+lenTo: 150
+colorFrom: ffffff
+colorTo: ffffff00
+length: -0.1
+}
+
+shootType:{
+type: BulletType
+speed: 30
+lifetime: 5
+pierce: true
+damage: 45
+
+fragBullets: 4
+fragSpread: 30
+fragRandomSpread: 0
+fragBullet:{
+speed: 0
+damage: 25
+lifetime: 6
+type: BulletType
+
+despawnEffect:{
+type: ParticleEffect
+particles: 1
+line: true
+cone: 0
+strokeFrom: 1
+strokeTo: 3
+lenFrom: 60
+lenTo: 60
+colorFrom: ffffff
+colorTo: ffffff00
+}
+  
+}
+  
+}
+
+drawer: {
+  type: DrawRegion
+}
