@@ -1,6 +1,7 @@
 type: PowerTurret
 size: 4
 outlineRadius: 0
+range: 300
 
 consumes:{
 power: 1
@@ -22,27 +23,31 @@ shootType:{
 rotates: false
 rotateSpeed: 20
 
-shootEffect:{
-type: ParticleEffect
-particles: 1
-line: true
-cone: 0
-strokeFrom: 1
-strokeTo: 3
-lenFrom: 0
-lenTo: -150
-colorFrom: ffffff
-colorTo: ffffff00
-length: -0.1
-}
-
 shootType:{
-type: BulletType
-speed: 5
+type: BasicBulletType
+speed: 10
 lifetime: 30
 pierce: true
 damage: 45
 despawnHit: true
+
+parts:[
+{
+type: FlarePart
+sides: 2
+width: 2
+radius: 20
+frontColor: ffffff
+}
+]
+
+width: 10
+height: 14
+trailWidth: 2
+trailLength: 20
+frontColor: ffffff
+backColor: ffffff
+trailColor: ffffff
 
 fragBullets: 5
 fragSpread: 30
