@@ -32,7 +32,7 @@ inaccuracy: 12.5
 shootType:{
 type: LightningBulletType
 damage: 15
-lightningLength: 5
+lightningLength: 37.5
 lifetime: 35
 }
 
