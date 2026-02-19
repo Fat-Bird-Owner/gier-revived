@@ -2,6 +2,7 @@ type: PowerTurret
 size: 4
 outlineRadius: 0
 range: 300
+name: Tension
 
 consumes:{
 power: 1
