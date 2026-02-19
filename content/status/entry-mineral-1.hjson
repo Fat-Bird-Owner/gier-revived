@@ -1,0 +1,28 @@
+databaseCategory: "entries"
+name: "Directory: [tan]Ore[]"
+detail: '''
+Basic ores like lead, Copper And Graphite can be founded on gier.
+These mineral are the only ones that can be mined via the player controlled drone.
+
+'''
+
+shownPlanets:[gier]
+databaseTag: "minerals"
+
+research:{
+parent: gier
+objectives:[
+{
+type: Produce
+content: copper
+}
+{
+type: Produce
+content: lead
+}
+{
+type: Produce
+content: graphite
+}
+]
+}
