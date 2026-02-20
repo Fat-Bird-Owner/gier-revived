@@ -11,13 +11,12 @@ power: 1
 
 databaseTag: "gier"
 research: gier
-researchCostMultiplier: 0.45
+researchCostMultiplier: 0.15
 
 shootY: 0
 customShadow: true
 category: turret
-reload: 7.5
-inaccuracy: 15
+reload: 35
 shake: 0.65
 
 shoot:{
@@ -33,15 +32,31 @@ graphite/265
 ]
 buildTime: 300
 
-rotates: false
-rotateSpeed: 20
-inaccuracy: 12.5
+rotatable: false
+rotateSpeed: 0
+inaccuracy: 0
 
 shootType:{
-type: LightningBulletType
-damage: 15
-lightningLength: 40
-lifetime: 35
+type: BulletType
+speed: 30
+lifetime: 10
+instanrDisappear: true
+despawnHit: true
+fragBullets: 4
+fragSpread: 90
+fragRandomSpread: 0
+fragBullet:{
+type: MissileBulletType
+speed: 1
+width: 15
+height: 24
+lifetime: 120
+homingPower: 0.025
+damage: 35
+frontColor: 7d4c27
+accel: 0.0333333
+}
+
 }
 
 drawer: {
