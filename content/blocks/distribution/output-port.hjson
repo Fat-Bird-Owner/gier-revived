@@ -4,6 +4,7 @@ name: Output Port
 requirements:[lead/15,copper/10]
 research: rail
 researchCostMultiplier: 0.35
+squareSprite: false
 
 envEnabled: 2
 databaseTag: "gier"
