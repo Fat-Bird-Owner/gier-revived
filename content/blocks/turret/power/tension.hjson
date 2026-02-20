@@ -49,7 +49,7 @@ fragVelocityMin: 1
 fragVelocityMax: 1
 fragBullet:{
 type: MissileBulletType
-speed: 0
+speed: 1
 trailEffect: none
 trailWidth: 2
 trailLenght: 5
