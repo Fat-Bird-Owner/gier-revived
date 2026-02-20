@@ -1,7 +1,7 @@
 type: PowerTurret
 size: 4
 outlineRadius: 0
-range: 300
+range: 280
 name: Tension
 health: 2450
 
@@ -11,6 +11,7 @@ power: 1
 
 databaseTag: "gier"
 research: gier
+
 researchCostMultiplier: 0.15
 
 shootY: 0
@@ -52,15 +53,15 @@ type: MissileBulletType
 speed: 1
 trailEffect: none
 trailWidth: 2
-trailLenght: 5
+trailLength: 8
 width: 10
 height: 17
-lifetime: 120
+lifetime: 100
 homingPower: 0.075
 homingRange: 80
-damage: 35
+damage: 25
 frontColor: 7d4c27
-accel: 0.0333333
+accel: 0.034
 hitEffect: explosion
 hitSound: explosionDull
 despawnHit: true
