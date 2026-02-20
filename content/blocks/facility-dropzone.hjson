@@ -1,6 +1,7 @@
 type: UnitCargoUnloadPoint
 size: 2
 health: 235
+name: Facility Dropzone
 
 requirements:[
 lead/125
