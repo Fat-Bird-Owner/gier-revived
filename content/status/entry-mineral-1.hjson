@@ -1,7 +1,7 @@
 databaseCategory: "entries"
 name: "Directory: [tan]Ore[]"
 details: '''
-[white]Basic mineral ores like Lead, Copper, and Graphite can be found in Gier.
+[lightgrey]Basic mineral ores like Lead, Copper, and Graphite can be found in Gier.
 These ores are the only ones that can be mined via player-controlled drones.
 '''
 
