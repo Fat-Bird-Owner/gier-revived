@@ -4,6 +4,8 @@ outlineRadius: 0
 range: 280
 name: Tension
 health: 2450
+shownPlanets: [gier]
+envEnabled: 2
 
 consumes:{
 power: 1
