@@ -24,7 +24,7 @@ shots: 2
 shotDelay: 0
 }
 
-shootCone: 10
+shootCone: 180
 requirements:[
 lead/445
 copper/365
@@ -40,7 +40,7 @@ shootType:{
 type: BulletType
 speed: 30
 lifetime: 10
-instanrDisappear: true
+instantDisappear: true
 despawnHit: true
 fragBullets: 4
 fragSpread: 90
