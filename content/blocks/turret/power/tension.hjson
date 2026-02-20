@@ -45,9 +45,11 @@ despawnHit: true
 fragBullets: 4
 fragSpread: 90
 fragRandomSpread: 0
+fragVelocityMin: 1
+fragVelocityMax: 1
 fragBullet:{
 type: MissileBulletType
-speed: 1
+speed: 2
 width: 15
 height: 24
 lifetime: 120
