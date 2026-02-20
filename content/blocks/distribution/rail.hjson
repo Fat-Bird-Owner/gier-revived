@@ -3,6 +3,9 @@ name: Rail
 
 requirements:[lead/1]
 
+speed: 0.01667
+baseEfficiency: 1
+
 researchCostMultiplier: 0.45
 research: gier
 databaseTag: "gier"
