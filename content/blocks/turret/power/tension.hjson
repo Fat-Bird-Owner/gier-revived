@@ -49,11 +49,12 @@ fragVelocityMin: 1
 fragVelocityMax: 1
 fragBullet:{
 type: MissileBulletType
-speed: 2
-width: 15
-height: 24
+speed: 0
+width: 10
+height: 17
 lifetime: 120
-homingPower: 0.025
+homingPower: 0.075
+homingRange: 80
 damage: 35
 frontColor: 7d4c27
 accel: 0.0333333
