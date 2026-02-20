@@ -50,6 +50,9 @@ fragVelocityMax: 1
 fragBullet:{
 type: MissileBulletType
 speed: 0
+trailEffect: none
+trailWidth: 2
+trailLenght: 5
 width: 10
 height: 17
 lifetime: 120
@@ -58,6 +61,10 @@ homingRange: 80
 damage: 35
 frontColor: 7d4c27
 accel: 0.0333333
+hitEffect: explosion
+hitSound: explosionDull
+despawnHit: true
+hitShake: 3.5
 }
 
 }
