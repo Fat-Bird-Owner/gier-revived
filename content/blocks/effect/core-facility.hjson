@@ -4,6 +4,8 @@ name: "Core: Facility"
 
 itemCapacity: 6850
 envEnabled: 2
+health: 4250
+unitType: gamma
 
 research: gier
 researchCostMultiplier: 0.35
