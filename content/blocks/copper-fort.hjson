@@ -1,6 +1,19 @@
-type: Wall
+type: ForceProjector
 name: Copper Fort
+priority: 3.5
+health: 240
 
+sides: 4
+radius: 56
+shieldRotation: 45
+cooldownNormal: 15
+shieldHealth: 375
+
+description: "
+[sky]Priority[]: 2.5
+
+Generates a small forcefield in a small area, Long cooldown time.
+"
 research: gier
 researchCostMultiplier: 0.35
 requirements:[lead/5,copper/5]
