@@ -2,3 +2,4 @@ type: tether
 flying: true
 #aiController: EffectDroneAI
 speed: 1
+hidden: true
