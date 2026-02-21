@@ -32,9 +32,9 @@ shootEffect: none
 smokeEffect: none
 hitEffect: none
 despawnEffect: none
-trailLength: 60
+trailLength: 30
 trailWidth: 1
-trailColor: e3a62d
+trailColor: ffd37fff
 lightOpacity: 0
 layer: 123.1
 }
