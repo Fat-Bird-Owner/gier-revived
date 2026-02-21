@@ -14,7 +14,7 @@ range: 60
 color: 4f4f4f
 effectRadius: 0
 shootSound: none
-hitEffect: healBlock
+hitEffect: healBlockFull
 
 }
 ]
