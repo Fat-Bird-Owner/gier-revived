@@ -5,6 +5,8 @@ flying: true
 outlineColor: 2f2f3f
 accel: 0.116667
 drag: 0.035
+flyingLayer: 123
+targetable: false
 
 abilities:[
 {
