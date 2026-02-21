@@ -25,7 +25,7 @@ name: "spark"
 ]
 }
 
-bullet:{
+shootType:{
 type: EmptyBulletType
 instantDisappear: true
 spawnUnit: spark
