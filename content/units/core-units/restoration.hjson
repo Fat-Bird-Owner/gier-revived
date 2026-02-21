@@ -1,4 +1,4 @@
-type: Flying
+type: flying
 speed: 1.85
 name: Restoration
 flying: true
@@ -20,7 +20,7 @@ engineSize: 0
 hitSize: 14
 health: 145
 description: "Repairs nearby buildings and slightly weakens enemies, has [red]pathetically[] small range."
-engine:[
+engines:[
 {
 x: 2.125
 y: 0
