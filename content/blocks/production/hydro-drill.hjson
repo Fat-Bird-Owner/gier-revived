@@ -9,6 +9,7 @@ tier: 2
 drawRim: false
 drawSpinSprite: true
 drawMineItem: true
+squareSprite: false
 
 databaseTag: "gier"
 shownPlanets: [gier]
