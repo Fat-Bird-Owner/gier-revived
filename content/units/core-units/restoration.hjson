@@ -1,5 +1,18 @@
 type: flying
 speed: 1.85
+name: Restoration
+flying: true
+
+abilities:[
+{
+type: EnergyFieldAbility
+damageEffect: none
+sectorRad: 0.05
+sectors: 45
+range: 30
+color: 6f6f6f
+}
+]
 
 engineSize: 0
 hitSize: 14
