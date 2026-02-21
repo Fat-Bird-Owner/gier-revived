@@ -9,8 +9,8 @@ abilities:[
 type: EnergyFieldAbility
 damageEffect: none
 sectorRad: 0.05
-sectors: 15
-range: 30
+sectors: 30
+range: 60
 color: 4f4f4f
 effectRadius: 0
 shootSound: none
