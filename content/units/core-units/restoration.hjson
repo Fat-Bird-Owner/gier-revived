@@ -2,7 +2,7 @@ type: flying
 speed: 1.85
 name: Restoration
 flying: true
-
+outlineColor: 
 abilities:[
 {
 type: EnergyFieldAbility
