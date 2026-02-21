@@ -5,7 +5,7 @@ name: "Core: [accent]Facility[]"
 itemCapacity: 6850
 envEnabled: 2
 health: 4250
-unitType: gamma
+unitType: gr-restoration
 isFirstTier: false
 incinerateNonBuildable: true
 customShadow: true
