@@ -27,24 +27,24 @@ engines:[
 x: 2.125
 y: 0
 rotation: 90
-size: 1.5
+radius: 2
 }
 {
 x: -2.125
 y: 0
 rotation: -90
-size: 1.5
+radius: 2
 }
 {
 x: 0
 y: 2.15
 rotation: 0
-size: 1.5
+radius: 2
 }
 {
 x: 0
 y: -2.15
 rotation: 180
-size: 1.5
+radius: 2
 }
 ]
