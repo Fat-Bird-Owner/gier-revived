@@ -19,6 +19,11 @@ hitEffect: healBlockFull
 }
 ]
 
+mineTier: 2
+mineSpeed: 10
+mineBeamOffset: 0
+buildSpeed: 1.5
+
 engineSize: 0
 hitSize: 14
 health: 145
