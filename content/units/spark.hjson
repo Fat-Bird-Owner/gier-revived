@@ -5,7 +5,6 @@ name: Spark
 speed: 1.45
 hitSize: 12
 omniMovement: false
-accel: 0.01667
 rotateSpeed: 3.5
 health: 300
 engineOffset: 6
