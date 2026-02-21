@@ -30,7 +30,7 @@ colorFrom: 4f4f4f
 colorTo: 4f4f4f
 layer: 121
 cone: 0
-length: 0
+length: 0.1
 }
 healEffect: healBlockFull
 layer: 122
