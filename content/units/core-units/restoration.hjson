@@ -1,8 +1,10 @@
 type: flying
-speed: 1.85
+speed: 3.5
 name: Restoration
 flying: true
 outlineColor: 2f2f3f
+accel: 0.116667
+drag: 0.035
 
 abilities:[
 {
@@ -15,7 +17,7 @@ color: 4f4f4f
 effectRadius: 0
 shootSound: none
 hitEffect: healBlockFull
-
+layer: 122
 }
 ]
 
