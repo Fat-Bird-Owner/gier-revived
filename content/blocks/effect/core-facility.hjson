@@ -9,6 +9,7 @@ unitType: gr-restoration
 isFirstTier: false
 incinerateNonBuildable: true
 customShadow: true
+squareSprite: false
 
 research: gier
 researchCostMultiplier: 0.35
