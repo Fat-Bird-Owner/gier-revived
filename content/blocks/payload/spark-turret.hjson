@@ -14,13 +14,14 @@ minWarmup: 340
 alwaysShooting: true
 shootCone: 180
 linearWarmup: true
-  
+controllable: false
+
 drawer:{
 type: DrawTurret
 parts:[
 {
 type: RegionPart
-name: "spark"
+suffix: "spark"
 }
 ]
 }
