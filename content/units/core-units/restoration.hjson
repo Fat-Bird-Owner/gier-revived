@@ -1,4 +1,4 @@
-type: flying
+type: Flying
 speed: 1.85
 name: Restoration
 flying: true
@@ -11,7 +11,8 @@ damageEffect: none
 sectorRad: 0.05
 sectors: 45
 range: 30
-color: 6f6f6f
+color: 4f4f4f
+effectRadius: 0
 }
 ]
 
