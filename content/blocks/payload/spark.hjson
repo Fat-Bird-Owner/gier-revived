@@ -1,0 +1,33 @@
+type: PowerTurret
+consumes:{
+power: 2
+}
+category: units
+
+databaseTag: "exogen"
+databaseCategory: "unit-spawn"
+
+requirements:[lead/65,copper/35,graphite/20]
+  
+warmupSpeed: 1
+minWarmup: 340
+alwaysShooting: true
+shootCone: 180
+linearWarmup: true
+  
+drawer:{
+type: DrawTurret
+parts:[
+{
+type: RegionPart
+name: "spark"
+}
+]
+}
+
+bullet:{
+type: EmptyBulletType
+instantDisappear: true
+spawnUnit: spark
+killShooter: true
+}
