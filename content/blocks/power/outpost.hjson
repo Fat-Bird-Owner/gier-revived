@@ -6,6 +6,7 @@ size: 2
 requirements:[copper/125,lead/85,graphite/65]
 laserRange: 30
 category: power
+buildVisibility: sandboxOnly
 
 databaseTag: "gier"
 research: photon-panel
