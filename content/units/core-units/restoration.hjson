@@ -8,7 +8,7 @@ abilities:[
 {
 type: EnergyFieldAbility
 damageEffect: none
-sectorRad: 0.016
+sectorRad: 0.05
 sectors: 25
 range: 30
 color: 4f4f4f
