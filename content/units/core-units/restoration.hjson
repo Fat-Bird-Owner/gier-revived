@@ -14,11 +14,15 @@ range: 30
 color: 4f4f4f
 effectRadius: 0
 shootSound: none
-hitEffect: healBlockFull
+hitEffect: {
+effect: healBlockFull
+color: 4f4f4f
+}
+
 }
 ]
 
-engineSize: 0
+engineSize: 1
 hitSize: 14
 health: 145
 description: "Repairs nearby buildings and slightly weakens enemies, has [red]pathetically[] small range."
