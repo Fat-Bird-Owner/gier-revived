@@ -2,7 +2,8 @@ type: flying
 speed: 1.85
 name: Restoration
 flying: true
-outlineColor: 
+outlineColor: 2f2f3f
+
 abilities:[
 {
 type: EnergyFieldAbility
@@ -17,7 +18,7 @@ color: 6f6f6f
 engineSize: 0
 hitSize: 14
 health: 145
-description: "Repairs nearby buildings and slightly weakens enemies, All in a [red]pethetically[] small range."
+description: "Repairs nearby buildings and slightly weakens enemies, has [red]pathetically[] small range."
 engine:[
 {
 x: 2.125
