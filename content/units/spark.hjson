@@ -3,6 +3,7 @@ flying: true
 outlineColor: 2f2f3f
 name: Spark
 speed: 2.15
+hitSize: 12
 accel: 0.0219444
 drag: 0.00597222
 omniMovement: false
