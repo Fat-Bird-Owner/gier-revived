@@ -1,0 +1,4 @@
+type: DroneCenter
+size: 1
+requirements:[]
+droneType: effect-drone-test
