@@ -1,20 +1,24 @@
 // file name very used in logic like template-block.
 name: "gr"
 
-displayName: "[tan[]]Gier: [acid[]]Revived[[]]"
+displayName: "[sky[]]Gier: [green[]]Revived[[]]"
 repo: "Fat-Bird-Owner/gier-revived"
-subtitle: ""
-author: ""
+subtitle: "Generation 5: [sky[]]The first mineral war[[]]"
+author: "Fat Bird's Owner"
 
-description: ""
+description: "
+makes gier playable, Unlocked after researching the planentary accelator.
+"
 
 iosCompatible: true
-version: "v1"
+version: "v0"
 minGameVersion: "155"
 dependencies: []
 hidden: false
 
 contentOrder:[
+rail
+
 drone-facility
 facility-dropzone
 ]
