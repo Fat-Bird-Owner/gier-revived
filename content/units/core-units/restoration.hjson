@@ -34,8 +34,9 @@ hitEffect: none
 despawnEffect: none
 trailLength: 60
 trailWidth: 1
-trailColor: 7382f0
+trailColor: e3a62d
 lightOpacity: 0
+layer: 123.1
 }
 }
 ]
