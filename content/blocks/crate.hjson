@@ -3,7 +3,7 @@ name: Crate
 size: 2
 
 researchCostMultiplier: 0.45
-research: gier
+research: rail
 databaseTag: "gier"
 shownPlanets: [gier]
 envEnabled: 2
