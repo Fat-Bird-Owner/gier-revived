@@ -1,18 +1,17 @@
 type: PowerNode
 sameBlockConnection: true
-laserScale: 0.5
+laserScale: 0.75
 
 size: 2
-requirements:[copper/125,lead/85,graphite/65]
-laserRange: 30
+requirements:[copper/225,lead/185,graphite/125]
+laserRange: 60
 category: power
+researchCostMultiplier: 0.15
+
 buildVisibility: sandboxOnly
 
 databaseTag: "gier"
 research: photon-panel
 
 outputsPower: true
-consumes:{
-powerBuffered: 650
-}
 envEnabled: 2
