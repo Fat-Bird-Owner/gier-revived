@@ -20,6 +20,6 @@ graphite/85
 ]
 
 research: gier
-researchCostMultiplier: 0.65
+researchCostMultiplier: 0.25
 databaseTag: "gier"
 #shownPlanets:[gier]
