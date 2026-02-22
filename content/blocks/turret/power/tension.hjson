@@ -14,7 +14,7 @@ power: 1
 databaseTag: "gier"
 research: gier
 
-researchCostMultiplier: 0.15
+researchCostMultiplier: 0.05
 
 shootY: 0
 customShadow: true
