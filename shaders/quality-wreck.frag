@@ -13,7 +13,7 @@ void main(){
 
     float noise = texture2D(
         u_noise,
-        coords / 125.0
+        coords / 150.0
     ).r;
 
     vec4 color = texture2D(u_texture, v_texCoords);
@@ -21,14 +21,10 @@ void main(){
     float alpha = 1.0 - ((noise * 2.75) - 0.75);
 
     color.a *= alpha;
-
-    color.a = smoothstep(
-        0.05,
-        0.2,
-        color.a
-    );
-
-    color.rgb *= 1.3 - ((noise * 2.6) - 0.5);
+    color.a = smoothstep(0.05, 0.2, color.a);
+	if (color.a >= 0.3) color.a = 1.0;
+    
+    color.rgb *= floor((1.3 - ((noise * 2.6) - 0.5))*6.0) / 6.0;
 
     gl_FragColor = color;
 }
