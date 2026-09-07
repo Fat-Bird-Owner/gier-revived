@@ -1,3 +1,4 @@
+const effects = require("effects");
 const units = [
 "gr-conceal",
 "gr-covert"
@@ -6,6 +7,10 @@ const units = [
 Events.on(ClientLoadEvent, () => {
 try {
 
+const exposed = Vars.content.statusEffect("gr-exposed")
+exposed.intervalEffect.effects.push(effects.targetPointEffect);
+exposed.applyEffect.effects.push(effects.targetPointEffect);
+  
 for (let i = 0; i < units.length; i++){
 
 const unit = Vars.content.unit(units[i]);
