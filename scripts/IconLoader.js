@@ -38,6 +38,8 @@ Events.on(ClientLoadEvent, () => {
         fonts.each((f) => {
             f.getData().setGlyph(id, glyph);
         });
+
+        Core.bundle.properties.put("icons." + regionName, String.fromCharCode(id));
     };
 
 })
