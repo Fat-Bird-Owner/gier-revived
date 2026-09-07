@@ -120,4 +120,5 @@ Events.on(ClientLoadEvent, () => {
         });
     };
 
+  Team.green.emoji = "\uEEB2";
 })
