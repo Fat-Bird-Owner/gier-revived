@@ -84,7 +84,7 @@ log(e)
 Events.on(ClientLoadEvent, () => {
 
     // code ripped straight from psammos
-    loadIcon(61106, "gr-cualbult-foundry") // \uEEB2
+    loadIcon(61106, "gr-exposed") // \uEEB2
 
     function loadIcon(id, regionName) {
         let fonts = Seq.with(Fonts.def, Fonts.outline);
