@@ -2,6 +2,10 @@ type: LiquidRouter
 size: 2
 name: Fluid Silo
 
+description: "
+A medium-sized liquid tank, Capable of holding large-quanities of liquid at once
+"
+
 liquidPadding: 2
 liquidCapacity: 250
 customShadow: true
