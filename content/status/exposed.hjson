@@ -1,0 +1,29 @@
+name: Exposed
+description: "
+The stealth unit becomes exposed
+making it's stealth nearly ineffective
+"
+
+color: CBD97F
+applyEffect: [
+{
+type: WaveEffect
+sizeFrom: 8
+sizeTo: 40
+strokeFrom: 1.5
+strokeTo: 0
+interp: sineOut
+layer: 122
+lifetime: 40
+colorFrom: CBD97FFF
+colorTo: CBD97F00
+}
+]
+
+intervalEffect: [
+{
+type: WrapEffect
+effect: overclocked
+color: CBD97FFF
+}
+]
