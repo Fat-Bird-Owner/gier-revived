@@ -237,7 +237,7 @@ Draw.reset()
 const targetPointEffect = new Effect(1, e => {
     if (Vars.state.isPaused()) return;
     let u = Vars.content.unit("gr-target-point");
-    if (u) u.spawn(Team.get(Team.get(Team.all.length - 1)), e.x, e.y, e.rotation);
+    if (u) u.spawn(Team.get(115), e.x, e.y, 0);
 });
 
 exports.fissureAvailable = fissureAvailable;
