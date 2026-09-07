@@ -22,7 +22,7 @@ databaseTag: "adv-phase-fabric"
 
 liquidCapacity: 50
 baseExplosiveness: 25
-research: anode-reactor
+research: anode-converter
 
 researchCostMultiplier: 0.25 
 consumes: {
