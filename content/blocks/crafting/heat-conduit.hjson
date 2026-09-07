@@ -11,6 +11,8 @@ Conducts and transports heat
 - Explosive
 "
 
+research: heating-port
+databaseTag: "adv-cualbult"
 baseExplosiveness: 6
 drawer: [
 {
