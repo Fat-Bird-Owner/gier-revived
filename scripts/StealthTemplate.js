@@ -8,8 +8,8 @@ Events.on(ClientLoadEvent, () => {
 try {
 
 const exposed = Vars.content.statusEffect("gr-exposed")
-exposed.effect.effects.push(effects.targetPointEffect);
-exposed.applyEffect.effects.push(effects.targetPointEffect);
+exposed.effect.effects.add(effects.targetPointEffect);
+exposed.applyEffect.effects.add(effects.targetPointEffect);
   
 for (let i = 0; i < units.length; i++){
 
