@@ -4,7 +4,7 @@ size: 2
 
 researchCostMultiplier: 0.5
 research: crate
-databaseTag: "adv-phase-tech"
+databaseTag: "adv-phase-fabric"
 shownPlanets: [gr-gier, kela]
 envEnabled: -1
 
@@ -20,13 +20,10 @@ squareSprite: true
 baseExplosiveness: 50
 
 description: "
-Inputted items are directly transported
-to the core
-
-Cant unload from the core nor can it 
-support it's own core
+Acts as a direct-input to the core
 [green]
-- Core transport/unload[red]
+- Direct-core input[red]
 - Explosive
 - Can't support a core
+- Can't be unloaded from
 "
