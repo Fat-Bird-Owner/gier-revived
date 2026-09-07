@@ -24,6 +24,7 @@ compile("Pasting");
 compile("GameOver");
 compile("AttributeVanilla")
 compile("Shader");
+compile("IconLoader");
 compile("effects"); // fancy effects
 //require("BreakBlock"); didnt have the needed event type
 //require("gierTroll");
