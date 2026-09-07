@@ -238,8 +238,8 @@ const targetPointEffect = new Effect(1, e => {
     if (Vars.state.isPaused()) return;
     let u = Vars.content.unit("gr-target-point");
     if (u) {
-    u.spawn(Team.get(115), e.x, e.y, 0);
-    u.time = u.lifetime - 15;
+    let target = u.spawn(Team.get(115), e.x, e.y, 0);
+    target.time = target.lifetime - 15;
     }    
 });
 
