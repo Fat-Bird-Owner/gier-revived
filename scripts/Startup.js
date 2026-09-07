@@ -8,7 +8,7 @@ Team.get(5).emoji = "[#A4CBE0][]";
 // old ^ 8ecff5
 
 Team.get(4).setPalette(Color.valueOf("8f55ce"));
-//Team.get(4).emoji = ""; 
+Team.get(4).emoji = ""; 
 
 Team.get(7).setPalette(Color.valueOf("C9A5C8FF"));
 Team.get(7).emoji = "[#C9A5C8FF][]"; 
@@ -62,11 +62,20 @@ const scrapTag = Core.bundle.get("database-tag.adv-scrap");
 Core.bundle.properties.put("database-tag.adv-scrap", Items.scrap.emoji() + " " + scrapTag);
 
 const depletedThoriumTag = Core.bundle.get("database-tag.adv-depleted-thorium");
-Core.bundle.properties.put("database-tag.adv-depleted-thorium", Items.thorium.emoji() + " " + depletedThoriumTag);
+Core.bundle.properties.put("database-tag.adv-depleted-thorium", String.fromCharCode(64001) + " " + depletedThoriumTag);
 
 const thoriumTag = Core.bundle.get("database-tag.adv-thorium");
 Core.bundle.properties.put("database-tag.adv-thorium", Items.thorium.emoji() + " " + thoriumTag);
 
+const phaseTag = Core.bundle.get("database-tag.adv-phase-fabric");
+Core.bundle.properties.put("database-tag.adv-phase-fabric", Items.phaseFabric.emoji() + " " + phaseTag);
+
+const denseAlloyTag = Core.bundle.get("database-tag.adv-dense-alloy");
+Core.bundle.properties.put("database-tag.adv-dense-alloy", String.fromCharCode(64002) + " " + denseAlloyTag);
+
+const cualbultTag = Core.bundle.get("database-tag.adv-cualbult");
+Core.bundle.properties.put("database-tag.adv-cualbult", String.fromCharCode(64003) + " " + cualbultTag);
+  
 } catch(e){
 Vars.ui.showText("Startup.js Crash", e);
 }});
