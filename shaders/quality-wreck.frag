@@ -13,7 +13,7 @@ void main(){
 
     float noise = texture2D(
         u_noise,
-        coords / 150.0
+        coords / 300.0
     ).r;
 
     vec4 color = texture2D(u_texture, v_texCoords);
