@@ -3,7 +3,7 @@ name: Cualbult Foundry
 size: 6
 
 description: "
-Produces cualbult using surge alloy, copper, oxide and large amounts of heat
+A massive bulky foundry required to produce cualbult. using surge alloy, copper, oxide and large amounts of heat.
 
 [grey][i] - Cualbult: Final advancement in the heat category for technology 
 [green]
@@ -39,6 +39,7 @@ launchPod
 }
 }
 
+databaseTag: "adv-cualbult"
 baseExplosiveness: 500
 itemCapacity: 120
 
