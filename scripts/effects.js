@@ -234,6 +234,12 @@ Draw.reset()
 
 })
 
+const targetPointEffect = new Effect(1, e => {
+    if (Vars.state.isPaused()) return;
+    let u = Vars.content.unit("gr-target-point");
+    if (u) u.spawn(Team.get(Team.all.size), e.x, e.y, e.rotation);
+});
+
 exports.fissureAvailable = fissureAvailable;
 exports.fissureUnavailable = fissureUnavailable;
 exports.lineChain = lineChain;
@@ -242,6 +248,7 @@ exports.healSphere = healSphere;
 exports.chainLightning = chainLightning;
 exports.shieldLightning = shieldLightning;
 exports.reverseSpark = reverseSpark;
+exports.targetPointEffect = targetPointEffect;
 
 Events.on(ClientLoadEvent, () => {
 try {
