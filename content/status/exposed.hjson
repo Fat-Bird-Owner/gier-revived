@@ -20,7 +20,7 @@ colorTo: CBD97F00
 }
 ]
 
-intervalEffect: [
+effect: [
 {
 type: WrapEffect
 effect: overclocked
